@@ -1,10 +1,10 @@
 const Post = ({ post }) => {
   return (
-    <div>
+    <li>
       <span>{post.id}</span>
-      {":"}
+      <span className="mr-5 ml-5">{":"}</span>
       <span>{post.title}</span>
-    </div>
+    </li>
   );
 };
 export default Post;
